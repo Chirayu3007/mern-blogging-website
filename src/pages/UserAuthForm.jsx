@@ -40,7 +40,7 @@ const UserAuthForm = ({ type }) => {
 
                         <button
                             className='btn-dark center mt-14'
-                            type='submit'
+                            type='reset'
                         >
                             {type.replace("-", " ")}
                         </button>
